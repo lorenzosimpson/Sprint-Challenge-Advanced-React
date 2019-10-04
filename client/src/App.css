@@ -92,15 +92,34 @@
   border: 1px solid;
   border-radius: 5px;
   margin: 10px;
-  transition: 0.5s;
 }
 
 .card:hover {
   background: #454e5e;
-  color: white;
+  background-size: contain;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
 }
 .dark-mode .card:hover {
-  background: white;
   color: #313843;
 }
 
+
+/* countries:  */
+.france:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_France.png');
+  
+}
+.united.states:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_United_States.png');
+ 
+}
+.brazil:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Brazil.png');
+}
+.sweden:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Sweden.png')
+}
+.netherlands:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Netherlands.png')
+}
