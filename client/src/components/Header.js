@@ -9,9 +9,9 @@ const Header = () => {
     }
     return (
         <div className='header'>
-            <h1 data-testid='header-text'>Women's World Cup Players</h1>
-            <div className='dark-mode-toggle'>
-            <div className={darkMode ? 'toggle toggled' : 'toggle'} onClick={toggle}></div>
+            <h1 data-testid='header-text'>Women's World Cup Players 🌍</h1>
+            <div className='dark-mode-toggle' onClick={toggle}>
+            <div className={darkMode ? 'toggle toggled' : 'toggle'}></div>
             </div>
             
         </div>
