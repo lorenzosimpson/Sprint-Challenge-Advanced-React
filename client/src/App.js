@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
+import Header from './components/Header'
 import CardContainer from './components/CardContainer'
 
 class App extends React.Component {
@@ -21,6 +22,7 @@ class App extends React.Component {
   render(){
     return (
     <div className="App">
+      <Header />
       <CardContainer playersData={this.state.playersData} />
     </div>
   )
