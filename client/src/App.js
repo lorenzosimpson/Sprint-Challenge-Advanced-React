@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
+import CardContainer from './components/CardContainer'
 
 class App extends React.Component {
   state = {
@@ -11,14 +12,16 @@ class App extends React.Component {
     axios
     .get('http://localhost:5000/api/players')
     .then(res => {
-      const playersData = res.data;
-      console.log(playersData)
+      this.setState({
+        playersData: res.data
+      })
     })
+    .catch(err => console.log(err))
   }
   render(){
     return (
     <div className="App">
-      
+      <CardContainer playersData={this.state.playersData} />
     </div>
   )
 }
