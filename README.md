@@ -22,10 +22,24 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
+
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+
+    Classes can allow code to be more DRY in that when using stateful logic, you may need to write a useEffect hook over and over again. 
+
 - [ ] Name three lifecycle methods and their purposes.
+
+    componentDidMount - this only is only called once (in the mounting phase) and it's where state is set
+    componentDidUpdate - invoked whenever something updates(not on the original render), things like state changes. 
+    componentWillUnmount - used to perform cleanup actions (cancelling network requests, removing event listeners) because the component won't re-render.
+
 - [ ] What is the purpose of a custom hook?
+
+    Custom hooks allow you to write reusable logic. For example, a form that needs to update state would need multiple useState hooks and wouldn't be DRY. You can create a custom hook and call it instead. 
+
 - [ ] Why is it important to test our apps?
+
+    We see bugs more easily, we think about edge cases, and acts as documentation for the code. 
 
 ## Project Set Up
 
