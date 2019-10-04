@@ -16,3 +16,4 @@ test('CardContainer is found', () => {
   const { getByTestId } = render(<App />);
   getByTestId(/card-container/i);
 })
+

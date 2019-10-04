@@ -1,5 +1,6 @@
 import React from 'react';
 import { useDarkMode } from '../hooks/useDarkMode';
+import ToggleBar from './ToggleBar';
 
 const Header = () => {
     const [darkMode, setDarkMode ] = useDarkMode();
@@ -9,10 +10,8 @@ const Header = () => {
     }
     return (
         <div className='header'>
-            <h1 data-testid='header-text'>Women's World Cup Players 🌍</h1>
-            <div className='dark-mode-toggle' onClick={toggle}>
-            <div className={darkMode ? 'toggle toggled' : 'toggle'}></div>
-            </div>
+            <h1 data-testid='header-text'>Women's World Cup Players <span role='img' aria-label='globe'>🌍</span></h1>
+            <ToggleBar toggle={toggle} darkMode={darkMode}/>
             
         </div>
     )
