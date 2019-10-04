@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 .App {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App-logo {
@@ -84,8 +86,8 @@
 }
 
 .card {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -108,11 +110,9 @@
 /* countries:  */
 .france:hover {
   background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_France.png');
-  
 }
 .united.states:hover {
   background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_United_States.png');
- 
 }
 .brazil:hover {
   background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Brazil.png');
@@ -123,3 +123,32 @@
 .netherlands:hover {
   background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Netherlands.png')
 }
+.australia:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Australia.png')
+}
+.chile:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Chile.png')
+}
+.england:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_England.png')
+}
+.italy:hover{
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Italy.png')
+}
+.germany:hover{
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Germany.png')
+}
+.canada:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Canada.png')
+}
+.spain:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Spain.png')
+}
+.norway:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Norway.png')
+}
+.argentina:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Argentina.png')
+}
+
+/* icons from iconfinder - created by Vathanx */
