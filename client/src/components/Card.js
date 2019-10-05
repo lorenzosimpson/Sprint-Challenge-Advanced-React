@@ -13,8 +13,3 @@ const Card = props => {
 }
 
 export default Card;
-
-// <div className={
-//             props.country === 'France' ? 'card france'
-//             : props.country === 'Brazil' ? 'card selected'
-//             : 'card'}></div>
