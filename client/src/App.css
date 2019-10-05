@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 .App {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App-logo {
@@ -23,11 +25,133 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  border-bottom: 1px solid black;
+  box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+  margin: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
 }
+
+.header h1 {
+  margin: 0;
+}
+
+.dark-mode-toggle {
+  background: #313843;
+  border-radius: 50px;
+  border: 1px solid grey;
+  height: 25px;
+  position: relative;
+  width: 60px;
+}
+.toggle {
+  background-color: white;
+  border-radius: 100%;
+  height: 23px;
+  left: 2px;
+  position: absolute;
+  transition: 0.5s;
+  width: 23px;
+}
+
+.toggled {
+  background-color: white;
+  left: 33px;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+  /* transition: 0.5s; */
+}
+
+.dark-mode .header {
+  border: none;
+  box-shadow: 0px 2px 15px -8px rgba(240, 240, 240, 0.42);
+}
+
+.dark-mode .card {
+  background-color: #454e5e;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;;
+  margin-top: 40px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 3px 3px 20px grey;
+}
+
+.card:hover {
+  background: #454e5e;
+  background-size: contain;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+}
+.dark-mode .card:hover {
+  color: #313843;
+  border: 1px solid white;
+}
+
+
+/* countries:  */
+.france:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_France.png');
+}
+.united.states:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_United_States.png');
+}
+.brazil:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Brazil.png');
+}
+.sweden:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Sweden.png')
+}
+.netherlands:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Netherlands.png')
+}
+.australia:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Australia.png')
+}
+.chile:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Chile.png')
+}
+.england:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_England.png')
+}
+.italy:hover{
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Italy.png')
+}
+.germany:hover{
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Germany.png')
+}
+.canada:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Canada.png')
+}
+.spain:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Spain.png')
+}
+.norway:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Norway.png')
+}
+.argentina:hover {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Argentina.png')
+}
+
+/* icons from iconfinder - created by Vathanx */
