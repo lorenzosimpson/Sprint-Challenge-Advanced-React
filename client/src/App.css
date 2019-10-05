@@ -44,23 +44,23 @@
   background: #313843;
   border-radius: 50px;
   border: 1px solid grey;
-  height: 20px;
+  height: 25px;
   position: relative;
-  width: 40px;
+  width: 60px;
 }
 .toggle {
   background-color: white;
   border-radius: 100%;
-  height: 18px;
+  height: 23px;
   left: 2px;
   position: absolute;
   transition: 0.5s;
-  width: 18px;
+  width: 23px;
 }
 
 .toggled {
   background-color: white;
-  left: 18px;
+  left: 33px;
 }
 
 .dark-mode {
@@ -95,6 +95,7 @@
   border: 1px solid;
   border-radius: 5px;
   margin: 10px;
+  box-shadow: 3px 3px 20px grey;
 }
 
 .card:hover {
@@ -105,6 +106,7 @@
 }
 .dark-mode .card:hover {
   color: #313843;
+  border: 1px solid white;
 }
 
 
